@@ -1,0 +1,96 @@
+:root {
+    --background-contrast: 95%;
+    --background-blur: 3px;
+    --loadbar-color: #ffffff88;
+    --loadbar-progress-color: #b12424e1;
+    --loadbar-height: 27px;
+    --footer-font-color: #dfdfdf98;
+    --footer-font-size: 24px;
+    --fadeTo-Color: #222222;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Lato');
+
+* {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.video-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    z-index: -99;
+  }
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #000;
+}
+
+#background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image:url(../imgs/background_1.png)
+}
+
+.loadbar {
+    border-radius: 5px;
+    width: 50%;
+    background-color: var(--loadbar-color);
+    height: var(--loadbar-height);
+
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+    overflow: hidden;
+
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-top: -8vh;
+    margin-left: -25vw;
+    width: 50vw;
+  
+    text-align: center;
+    display: block;
+}
+
+.yeet {
+    width: 0%;
+    border-radius: 5px;
+    background-color: var(--loadbar-progress-color);
+    height: var(--loadbar-height);
+
+    transition: 500ms;
+
+    position: absolute;
+    left: 0%;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.top-bar-bg {
+    display:  flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 2%;
+    position: absolute;
+}
+
+.top-bar-text {
+    transform: translate(-50%, 0);
+    background: #b12424;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+}

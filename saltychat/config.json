@@ -1,0 +1,22 @@
+{
+  //FivemSociety.com
+  // Variables Guide: https://github.com/saltminede/saltychat-docs/blob/master/setup.md#config-variables
+  "VoiceEnabled": true,
+  "ServerUniqueIdentifier": "v+vLERC9KtQB+9Rvq8BENSMm5BI=",
+  "MinimumPluginVersion": "2.2.0",
+  "SoundPack": "default",
+  "IngameChannelId": 8,
+  "IngameChannelPassword": "xorp123",
+  "SwissChannelIds": [ 6, 7 ],
+  "VoiceRanges": [ 3.5, 15, 25 ],
+  "MegaphoneRange": 120.0,
+  "NamePattern": "[{serverid}] - XORP",
+  "RequestTalkStates": true,
+  "RequestRadioTrafficStates": false,
+
+  // Keybinds: https://docs.fivem.net/docs/game-references/controls/#controls
+  "ToggleRange": 20, // EnterCheatCode
+  "TalkPrimary": 137, // PushToTalk
+  "TalkSecondary": 249, // VehiclePushbikeSprint
+  "TalkMegaphone": 47 // SpecialAbilitySecondary
+}
